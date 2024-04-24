@@ -1,0 +1,224 @@
+{
+      "id": "018e8bbf-905e-7252-91b4-e095349f7c26",
+      "active": null,
+      "status": "OPEN",
+      "doc_number": "PO-5551",
+      "txn_datetime": "2021-01-01T03:05:20Z",
+      "due_date": "2021-03-01",
+      "tax_percent": 10,
+      "tax_amount": 10,
+      "currency": "USD",
+      "exchange_rate": 1,
+      "custom_fields": null,
+      "is_dropship": false,
+      "is_contract_manufacturing": false,
+      "msg_to_vendor": "Example vendor message",
+      "internal_notes": "Example internal notes",
+      "sub_total": null,
+      "total_amount": null,
+      "class_ref": {
+        "id": "018e826d-2e2a-712c-b591-80406687ebf1",
+        "name": "Class 1"
+      },
+      "department": {
+        "id": "018e826d-2f19-789b-b9f7-854da05dace9",
+        "name": "Department 1"
+      },
+      "payable_account": null,
+      "project_code": {
+        "id": "018e826d-30d3-7c8b-bf36-ce3182c27352",
+        "name": "Project 1"
+      },
+      "ship_method": {
+        "id": "018e826d-31af-72f5-aa25-94b35815a0a9",
+        "name": "Shipping Method 1"
+      },
+      "warehouse": {
+        "id": "018ec7c3-ddf0-76c3-959c-fa93b72381b4",
+        "name": "Test Warehouse"
+      },
+      "tax_code": {
+        "id": "018e817c-9ab7-75ee-9182-82df45c0105e",
+        "name": "CA Tax 10%"
+      },
+      "payment_term": {
+        "id": "018e826d-3322-784c-8a08-2463bba3b216",
+        "name": "Payment Term 1"
+      },
+      "vendor": {
+        "id": "018e8b7c-cc18-7f3c-8206-518c8f1bc998",
+        "name": "XYZ Inc."
+      },
+      "vendor_addr": {
+        "id": "018e8bbf-9070-78d7-8fa3-b9b6f9214222",
+        "person": null,
+        "company": null,
+        "line1": "123 Seirra way",
+        "line2": "Suite 100",
+        "line3": "",
+        "city": "San Pablo",
+        "state": "CA",
+        "postal_code": "94588",
+        "country": "US",
+        "email": "info@xyzinc.com",
+        "phone": "123-456-7890"
+      },
+      "shipping_addr": {
+        "id": "018ee8a1-a077-7ad8-ad77-f9dfa87fc45b",
+        "person": "aaaaaaaaa",
+        "company": "Test Warehouse",
+        "line1": "1440 N Lakeview Ave",
+        "line2": null,
+        "line3": null,
+        "city": "Anaheim",
+        "state": "CA",
+        "postal_code": null,
+        "country": "USA",
+        "email": null,
+        "phone": null
+      },
+      "linked_transaction": null,
+      "line_items": [
+        {
+          "id": "018f085f-1965-7e06-856d-8000ef7a67b4",
+          "line_number": 1,
+          "vendor_part_number": null,
+          "description": "ddd",
+          "quantity": 10,
+          "unit_price": 12,
+          "amount": 120,
+          "taxable": true,
+          "received": 0,
+          "item": {
+            "id": "018e826d-3616-7e22-bdc9-9ac99bed6777",
+            "name": "Item 1"
+          },
+          "tax_code": {
+            "id": "018ec6d6-8db4-797c-a28a-a35c1979dc79",
+            "name": ""
+          },
+          "uom": {
+            "id": "018e834d-1852-7616-b754-ac780f8cdc8f",
+            "name": "Each"
+          },
+          "measurements": null,
+          "linked_transaction": null
+        },
+        {
+          "id": "018f085f-1965-7e14-8967-58e8574aeb0f",
+          "line_number": 2,
+          "vendor_part_number": null,
+          "description": "Test Assembly item",
+          "quantity": 12,
+          "unit_price": 2,
+          "amount": 24,
+          "taxable": true,
+          "received": 0,
+          "item": {
+            "id": "018ec872-9ccb-73f1-9153-1811f0989302",
+            "name": "Assembly test"
+          },
+          "tax_code": {
+            "id": "018ec6d6-8db4-797c-a28a-a35c1979dc79",
+            "name": ""
+          },
+          "uom": {
+            "id": "018e90f2-8731-74ed-8fc4-c55a1785d47c",
+            "name": "Unit"
+          },
+          "measurements": null,
+          "linked_transaction": null
+        },
+        {
+          "id": "018f0876-4a33-7cbf-b2d6-ca5ae9df4e8c",
+          "line_number": 3,
+          "vendor_part_number": null,
+          "description": "This is an example item description.",
+          "quantity": 2,
+          "unit_price": 2,
+          "amount": 4,
+          "taxable": true,
+          "received": 0,
+          "item": {
+            "id": "018ec701-057f-77f2-8f6b-4bdafbe4e285",
+            "name": "Example item 4"
+          },
+          "tax_code": {
+            "id": "018ec2c1-9d44-71a6-b847-2b177c8ea575",
+            "name": "tax code name"
+          },
+          "uom": {
+            "id": "018ec2c1-9d4a-7e5b-931f-d2f361ac1264",
+            "name": "uom name"
+          },
+          "measurements": null,
+          "linked_transaction": null
+        },
+        {
+          "id": "018f094f-6bb3-7abf-9e44-c8aacdba6597",
+          "line_number": 4,
+          "vendor_part_number": null,
+          "description": "This is an example item description.",
+          "quantity": 33,
+          "unit_price": 1,
+          "amount": 33,
+          "taxable": true,
+          "received": 0,
+          "item": {
+            "id": "018ecafb-0ed9-7745-815c-7904b141deb5",
+            "name": "Example item 7"
+          },
+          "tax_code": null,
+          "uom": {
+            "id": "018e90f2-8731-74ed-8fc4-c55a1785d47c",
+            "name": "Unit"
+          },
+          "measurements": null,
+          "linked_transaction": null
+        },
+        {
+          "id": "018f0954-b5aa-7ba8-a84f-3bdaa8c0accd",
+          "line_number": 5,
+          "vendor_part_number": null,
+          "description": "test",
+          "quantity": 1,
+          "unit_price": 2,
+          "amount": 2,
+          "taxable": true,
+          "received": 0,
+          "item": {
+            "id": "018ee193-924f-7412-b3b4-2b11bf0a43b0",
+            "name": "image"
+          },
+          "tax_code": null,
+          "uom": {
+            "id": "018e826d-3779-715e-aafa-ee419a73cfe4",
+            "name": "UOM 1"
+          },
+          "measurements": null,
+          "linked_transaction": null
+        },
+        {
+          "id": "018f099d-77c6-7f1c-a584-37dbb24da97f",
+          "line_number": 6,
+          "vendor_part_number": null,
+          "description": "dd",
+          "quantity": 22,
+          "unit_price": 1,
+          "amount": 22,
+          "taxable": true,
+          "received": 0,
+          "item": {
+            "id": "018ee1a9-934e-7a67-8d35-4660d3b3d7b9",
+            "name": "images"
+          },
+          "tax_code": null,
+          "uom": {
+            "id": "018e834d-1867-75a0-a352-68f2fadf8baa",
+            "name": "kg"
+          },
+          "measurements": null,
+          "linked_transaction": null
+        }
+      ]
+    }
